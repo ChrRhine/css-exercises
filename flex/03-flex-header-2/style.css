@@ -12,6 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* added before seeing solution */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 8px;
 }
 
 .profile-image {
@@ -45,4 +50,21 @@ a {
 
 ul {
   list-style-type: none;
+  /* added before seeing solution */
+  display: flex;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+/* added before seeing solution */
+
+.left,
+.right {
+  display: flex;
+  gap: 16px;
+  /* added after seeing solution */
+  align-items: center;
 }
